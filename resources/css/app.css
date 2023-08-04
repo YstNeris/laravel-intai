@@ -1,0 +1,33 @@
+html,
+body {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", Arial, sans-serif;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.justify-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-data {
+  height: calc(100dvh - 57px) !important;
+
+  .main-data-image {
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+  }
+}

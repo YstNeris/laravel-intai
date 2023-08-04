@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "declaration": true,
+    "forceConsistentCasingInFileNames": false,
+    "incremental": true,
+    "module": "es2020",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "paths": {
+      "@/*": ["resources/js/*"]
+    },
+    "removeComments": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strictBindCallApply": false,
+    "strictNullChecks": false,
+    "target": "es5",
+    "typeRoots": ["resources/js/types", "./node_modules/@types"]
+  }
+}
